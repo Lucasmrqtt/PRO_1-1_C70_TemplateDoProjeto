@@ -84,8 +84,7 @@ export default class RideScreen extends Component {
             <TouchableOpacity
               style={styles.scanbutton}
               //onPress=() => {this.getCameraPermissions()}
-              //onPress={() => this.getCameraPermissions()}
-              //onPress={() => this.getCameraPermissions}
+              onPress={() => this.getCameraPermissions()}
               //onPress=() => this.getCameraPermissions()
             >
               <Text style={styles.scanbuttonText}>Digitalizar</Text>
